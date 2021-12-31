@@ -32,7 +32,7 @@ typedef unsigned int 	   uint32;
 typedef bool  			   BOOL;
 typedef bool    	 	   boolean;
 typedef unsigned short	   uint16;
-typedef unsigned char         byte;
+typedef unsigned char      mbyte;
 
 extern int g_hCom;
 

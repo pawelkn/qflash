@@ -22,7 +22,7 @@ int handle_reset(void);
 int handle_openmulti(uint32 size,unsigned char* data);
 int handle_write(FILE *fp,  unsigned char *data, uint32 size);
 int handle_close(void);
-int handle_quectel_download_flag(byte mode);
+int handle_quectel_download_flag(mbyte mode);
 
 /*-------end-----------streaming download protocol-----------------------*/
 

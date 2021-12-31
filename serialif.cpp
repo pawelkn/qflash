@@ -411,8 +411,8 @@ set download flag in module, quectel custom command,
 if flag : reboot, module will enter DM
 if not flag: reboot normal
 */
-int handle_quectel_download_flag(byte mode) {
-    //byte mode = 1;
+int handle_quectel_download_flag(mbyte mode) {
+    //mbyte mode = 1;
     compose_packet(0x60, &mode, 1, NULL, 0);
     compute_reply_crc();
     send_packet(1);

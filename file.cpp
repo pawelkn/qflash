@@ -262,7 +262,7 @@ unsigned char * open_file(const char *filepath, uint32 *filesize) {
     }
 
 #if 0 //some soc donnot support MMU, so donot support mmap
-    filebuf = (byte *)mmap(0, sb.st_size, PROT_READ, MAP_SHARED, fd, 0);
+    filebuf = (mbyte *)mmap(0, sb.st_size, PROT_READ, MAP_SHARED, fd, 0);
     if (filebuf == MAP_FAILED) {
         close(fd);
         log_info("fail to mmap %s\n", filepath);
