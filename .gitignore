@@ -1,0 +1,5 @@
+*.o
+QFlash
+qfastboot
+qfirehose
+usb2tcp
