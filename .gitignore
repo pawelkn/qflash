@@ -1,5 +1,7 @@
+build/
+cmake-build-*/
 *.o
 QFlash
-qfastboot
-qfirehose
-usb2tcp
+fastboot/qfastboot
+firehose/qfirehose
+firehose/usb2tcp
